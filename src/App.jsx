@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import WeatherBoard from "./components/weather/WeatherBoard";
-import WeatherProvider from "./provider/WeatherProvider";
+
+import { WeatherProvider } from "./provider";
 function App() {
   return (
     <WeatherProvider>
